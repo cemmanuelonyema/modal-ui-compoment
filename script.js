@@ -19,9 +19,7 @@ overlay.addEventListener('click', toggleModal)
 
  document.addEventListener('keydown', function (e) {
    if (e.key ==='Escape') {
-            console.log(e.key);
-
-       
+            toggleModal()       
    }
 });
 
